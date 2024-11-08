@@ -1,0 +1,17 @@
+/* src/components/Menu.css */
+nav {
+    display: flex;
+    flex-direction: column; /* Change to column for vertical layout */
+    padding: 10px; /* Optional: Add some padding */
+  }
+  
+  nav a {
+    margin: 5px 0; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Change text color */
+  }
+  
+  nav a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  

@@ -1,0 +1,135 @@
+/* Invoice Generator Styles */
+.invoice-generator {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background to match hero section */
+  border-radius: 10px; /* Rounded corners for consistency */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: all 0.3s ease;
+}
+
+.invoice-generator h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5em; /* Match the heading size */
+}
+
+.card {
+  background: #fff; /* White background for cards */
+  border-radius: 10px; /* Match rounded corners */
+  padding: 20px; /* Increase padding for consistency */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Match shadow effect */
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased space for consistency */
+}
+
+.invoice-form input:focus,
+.invoice-form textarea:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1em;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-item-button,
+.save-invoice-button {
+  background-color: #2980b9; /* Button color to match CTA buttons */
+  color: white;
+  padding: 10px 20px; /* Match padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1em; /* Consistent font size */
+}
+
+.add-item-button:hover,
+.save-invoice-button:hover {
+  background-color: #1f6398; /* Darker on hover */
+}
+
+.invHead{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.invoice-summary {
+  background: #e9ecef; /* Light grey background for summary */
+  padding: 15px; /* Increased padding for a nicer look */
+  margin: 20px 0; /* Space above and below */
+  border-radius: 5px; /* Consistent border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Match shadow */
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgb(0, 110, 255); /* Consistent link color */
+  text-decoration: underline; /* Underline for links */
+}
+
+.invoice-header {
+  text-align: center; /* Centers the heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+.invoice-header h2 {
+  font-size: 2.5rem; /* Larger heading */
+  font-weight: bold; /* Bold for emphasis */
+  color: #333; /* Consistent color */
+  text-transform: uppercase; /* Uppercase for style */
+  letter-spacing: 1px; /* Adds space between letters */
+}
+
+
+.invoice-form input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 22px); /* Adjusts for padding and border */
+}
+
+.invoice-form input::placeholder {
+  color: #aaa; /* Placeholder text color */
+}
+
+.invoice-form input,
+.invoice-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
